@@ -1,18 +1,18 @@
 <div align="center">
-  <img alt="ReDoc logo" src="https://raw.githubusercontent.com/centfinance/Community/main/media-pack/logo.png" width="400px" />
+  <img alt="ReDoc logo" src="https://github.com/JeskeiStudio/Media/blob/main/Logo/jeskeilogo.jpg" width="400px" />
  
 </div>
 
-<h1 align=center><code>Symm Coin Contract</code></h1>
+<h1 align=center><code>JAK token contract</code></h1>
 
-This project is the implementation of the ERC20 Symm coin.
+This project is the implementation of the ERC20 JAK token.
 
 Where possible we have inherited from the audited OpenZepplin contracts but we have also added
 additional features including an implementation of ERC2612.
 
 ERC2612 enables the use of off-chain signatures to increase allowances using `permit`. Calls to `permit` don't need to be done by the `holder` and so this enables support for "gas-less" tokens, or the replacement of `approve` transactions by methods that call `permit` and `transferFrom` atomically.
 
-This contract was written by Switch1983.
+This contract was written by TheNewAutonomy.
 
 The implementation of ERC2612 was heavily influenced by the work of Georgios Konstantopoulos and Alberto Cuesta Cañada.
 
