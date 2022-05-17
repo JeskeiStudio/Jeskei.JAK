@@ -18,7 +18,7 @@ The implementation of ERC2612 was heavily influenced by the work of Georgios Kon
 
 ## How to Use
 
-`SymmCoin` is an `ERC20` contract. To test, make sure that you have Ganache-cli and Truffle installed alone with NodeJS.
+`JakToken` is an `ERC20` contract. To test, make sure that you have Ganache-cli and Truffle installed alone with NodeJS.
 
 Switch to a suitable version of Node
 
@@ -42,7 +42,7 @@ The `utils/signatures.ts` file contains useful functions to compute the `DOMAIN_
 
 ## Further manual testing
 
-A good way to become familiar with the Symm coin and to carry our realtime testing is from the Truffle console.
+A good way to become familiar with the JAK token and to carry our realtime testing is from the Truffle console.
 
 Start the Ganache network
 ```
@@ -73,10 +73,10 @@ Now start the Truffle console for interactive testing.
 truffle console
 ```
 
-The following are examples of commands you can issue to interact with the Symm contract. Be aware that the account used for minting or snapshotting must match what was set in the migration config file.
+The following are examples of commands you can issue to interact with the JAK contract. Be aware that the account used for minting or snapshotting must match what was set in the migration config file.
 ```
-// To get a reference to SymmCoin
-let instance = await SymmCoin.deployed()
+// To get a reference to JakToken
+let instance = await JakToken.deployed()
 instance
 
 // Mint coins

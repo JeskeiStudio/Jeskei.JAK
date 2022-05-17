@@ -1,4 +1,4 @@
-// contracts/CentToken.sol
+// contracts/JakToken.sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Snapshot.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 
-contract SymmCoin is ERC20Snapshot, ERC20Burnable, AccessControl, Ownable, ERC20Permit {
+contract JakToken is ERC20Snapshot, ERC20Burnable, AccessControl, Ownable, ERC20Permit {
 
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     bytes32 public constant SNAPSHOT_ROLE = keccak256("SNAPSHOT_ROLE");

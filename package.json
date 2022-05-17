@@ -1,22 +1,22 @@
 {
-  "name": "symmcoin",
-  "version": "0.0.5",
-  "description": "Solidity contracts implementing the Symm coin",
-  "author": "Darren Oliveiro-Priestnall",
+  "name": "jaktoken",
+  "version": "0.0.1",
+  "description": "Solidity contracts implementing the JAK token",
+  "author": "TheNewAutonomy",
   "engines": {
     "node": ">= 10.12.0",
     "npm": ">= 6.4.0",
     "yarn": ">= 1.10.0"
   },
   "files": [
-    "/contracts/symmcoin.sol",
+    "/contracts/jaktoken.sol",
     "/utils/signatures.ts"
   ],
   "keywords": [
     "solidity",
     "ethereum",
-    "Symmetric",
-    "Symm"
+    "Jeskei",
+    "JAK"
   ],
   "scripts": {
     "build": "buidler compile",

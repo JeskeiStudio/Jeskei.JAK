@@ -1,14 +1,14 @@
 const TestERC20 = artifacts.require('TestERC20');
-const SymmCoin = artifacts.require('SymmCoin');
+const JakToken = artifacts.require('JakToken');
 
 module.exports = async (deployer, network, accounts) => {
 
     if (network == "development") {
         await deployer.deploy(TestERC20,1000);
-        await deployer.deploy(SymmCoin, "Symmetric", "SYMM", "0x59e0A753Df69c54B2eEBe4E05c007345f0c61e85", "0x6e2d462488784D864BaeabcCee2aBaFd992a4BF0");
+        await deployer.deploy(JakToken, "Jeskei Token", "JAK", "0x8c6389001Fd713d3A85AA3a39DcE878494c8ce46", "0x2953E9e367a37014994B1908C6cD3f8df4FE82dc");
     }
     else
     {
-        await deployer.deploy(SymmCoin, "Symmetric", "SYMM", "0x59e0A753Df69c54B2eEBe4E05c007345f0c61e85", "0x6e2d462488784D864BaeabcCee2aBaFd992a4BF0");
+        await deployer.deploy(JakToken, "Jeskei Token", "JAK", "0x8c6389001Fd713d3A85AA3a39DcE878494c8ce46", "0x2953E9e367a37014994B1908C6cD3f8df4FE82dc");
     }
 }
