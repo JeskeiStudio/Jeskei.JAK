@@ -5,10 +5,10 @@ module.exports = async (deployer, network, accounts) => {
 
     if (network == "development") {
         await deployer.deploy(TestERC20,1000);
-        await deployer.deploy(JakToken, "Jeskei Token", "JAK", "0x8c6389001Fd713d3A85AA3a39DcE878494c8ce46", "0x2953E9e367a37014994B1908C6cD3f8df4FE82dc");
+        await deployer.deploy(JakToken, "Jeskei Token", "JAK", "0xFDe10463F21E74C94E8a90B345A7C4fdB72d2AE1", "0x7c1911a5CAF752466af3863Cc716550282ef16cF");
     }
     else
     {
-        await deployer.deploy(JakToken, "Jeskei Token", "JAK", "0x8c6389001Fd713d3A85AA3a39DcE878494c8ce46", "0x2953E9e367a37014994B1908C6cD3f8df4FE82dc");
+        await deployer.deploy(JakToken, "Jeskei Token", "JAK", "0xFDe10463F21E74C94E8a90B345A7C4fdB72d2AE1", "0x7c1911a5CAF752466af3863Cc716550282ef16cF");
     }
 }
